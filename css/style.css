@@ -7,6 +7,19 @@ Licence under Creative Commons Attribution 3.0
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+.center_haha {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+
+.center_section1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 /* Added by Gilad*/
 .center {
   display: block;
@@ -214,13 +227,13 @@ body {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 40px;
     color: #222222;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 h3 {
@@ -232,13 +245,23 @@ h3 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 32px;
     color: #888888;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
     margin: 0 0 60px 0;
 }
+
+h7 {
+    font-size: 25px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
 
 p {
     line-height: 24px;
@@ -264,7 +287,7 @@ p {
 
 .logo {
     float: left;
-    width : 20%;
+    width : 10%;
     margin-top: 8px;
 	position: relative;
 	z-index: 2;
@@ -311,7 +334,7 @@ p {
 }
 
 .navStyle ul li:last-child {
-    margin: 0 0 0 23px;
+    margin: 0 0 0 0px;
 }
 
 .navStyle ul li a {
@@ -320,7 +343,7 @@ p {
     color: #222222;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -491,7 +514,7 @@ a.read_more:hover {
 
 }
 .service_wrapper {
-    padding: 40px 0 40px;
+    padding: 20px 0 20px;
 }
 
 .service_section {
@@ -1050,14 +1073,14 @@ transition: all .3s;
 }
  
 .contact_section {
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
 }
 
 .contact_section h2 {
     font-size: 40px;
     color: #7030a0;
-    margin: 0 0 50px 0;
-    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    /*text-transform: uppercase;*/
 }
 
 .contact_block {
@@ -1341,6 +1364,7 @@ transition: all .3s;
 /* Portfolio */	
 	
 .container.portfolio_title {
+    margin-top: 50px;
     padding-bottom: 0px;
 }
 

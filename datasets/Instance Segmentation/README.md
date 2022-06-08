@@ -8,7 +8,7 @@
 ## Access the data
 
 ### Dataset link
-* More details can be refered to [CVPR2022 AVA Accessibility Vision and Autonomy Challenge] (https://eval.ai/web/challenges/challenge-page/1690/overview)
+* [Instance Segmentation Data]() - Link to the data repository.
 
 
 ### Dataset format
